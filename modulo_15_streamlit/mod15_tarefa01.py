@@ -31,7 +31,6 @@ st.set_page_config(
     layout="wide"
 )
 
-@st.cache_data
 @st.experimental_dialog("Sobre o estado de Rondônia", width="large")
 def show_state_info():
     st.text(
