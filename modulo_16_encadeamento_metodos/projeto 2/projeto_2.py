@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -13,7 +14,8 @@ st.set_page_config(
 
 st.write('# Análise exploratória da previsão de renda')
 
-renda = pd.read_csv('./input/previsao_de_renda.csv')
+caminho_pasta = os.getcwd() + "/modulo_16_encadeamento_metodos"
+renda = pd.read_csv(f'{caminho_pasta}/projeto 2/input/previsao_de_renda.csv')
 
 #plots
 fig, ax = plt.subplots(8,1,figsize=(10,70))
