@@ -28,7 +28,7 @@ Clone o projeto e instale os requisitos (requirements.py)
 
 ## Vídeo demonstrando o sistema funcionando corretamente 
 
-
+https://github.com/piresthiago10/estudos_data_science/assets/49841979/d05aa8ae-a1b9-4639-8961-6335a5620d52
 
 ## Instalção:
 
